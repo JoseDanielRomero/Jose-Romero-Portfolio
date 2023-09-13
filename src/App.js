@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className='h-screen w-screen bg-indigo-900'>
-
+    <div className="h-screen w-screen bg-white">
+      <header className="h-[500px] px-8 md:px-16 lg:px-24 bg-gradient-to-b from-violet-100 to-white">
+        <Navbar />
+      </header>
     </div>
   );
 }
