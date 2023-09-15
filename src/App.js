@@ -1,6 +1,7 @@
 import AboutSection from "./components/AboutSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import ProyectsSection from "./components/ProyectsSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <main className="h-auto px-8 md:px-16 lg:px-24">
         <AboutSection />
+        <ProyectsSection />
       </main>
     </div>
   );
