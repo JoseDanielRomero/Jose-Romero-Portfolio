@@ -30,13 +30,43 @@ function ProyectsSection() {
       "repo": "https://github.com/JoseDanielRomero/Countries-Finder-API",
       "techStack": ['React', 'JavaScript', 'Router', 'Axios'], 
       "className": "h-52 w-full bg-[#2b3945] flex flex-col items-center justify-end pt-4 px-1 rounded-t-2xl mb-4"
+    },
+    {
+      "id": "4",
+      "name": "Space Tourism Website",
+      "description": "Multi-page and fully mobile friendly website about space tourism.",
+      "image": "space-mockup",
+      "demo": "https://josedanielromero.github.io/Space-Tourism-website/",
+      "repo": "https://github.com/JoseDanielRomero/Space-Tourism-website",
+      "techStack": ['React', 'JavaScript', 'Router'], 
+      "className": "h-52 w-full bg-[#151c27] flex flex-col items-center justify-end pt-4 px-1 rounded-t-2xl mb-4"
+    },
+    {
+      "id": "5",
+      "name": "Multi-step Form",
+      "description": "Multi-step form based on a gaming subscription platform.",
+      "image": "form-mockup",
+      "demo": "https://josedanielromero.github.io/Multi-step-Form/",
+      "repo": "https://github.com/JoseDanielRomero/Multi-step-Form",
+      "techStack": ['JavaScript', 'jQuery', 'HTML', 'CSS'], 
+      "className": "h-52 w-full bg-[#6259ff] flex flex-col items-center justify-end pt-4 px-1 rounded-t-2xl mb-4"
+    },
+    {
+      "id": "6",
+      "name": "Splitter, tip calculator",
+      "description": "Simple but useful web application for calculating and dividing tips.",
+      "image": "splitter-mockup",
+      "demo": "https://josedanielromero.github.io/Tip-calculator/",
+      "repo": "https://github.com/JoseDanielRomero/Tip-calculator",
+      "techStack": ['React', 'JavaScript', 'HTML', 'CSS'], 
+      "className": "h-52 w-full bg-[#34b7a5] flex flex-col items-center justify-end pt-4 px-1 rounded-t-2xl mb-4"
     }
   ]
 
   return (
     <article className="h-auto w-full flex flex-col items-start justify-start gap-2">
       <h3 className="font-poppins font-bold text-[25px] md:text-[35px] leading-[2.3rem] md:leading-[55px] mt-10 md:mt-14 text-gray-800">Portfolio</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full mb-5">
         {proyects.map(proyect => {
           return (
             <section key={proyect.id} className="h-auto w-full rounded-xl flex flex-col items-center justify-between bg-white shadow-lg pb-6" >
