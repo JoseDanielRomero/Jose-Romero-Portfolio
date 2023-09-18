@@ -8,7 +8,7 @@ function HeroSection() {
     <div className="h-full w-full gap-4 md:gap-0 flex flex-col md:flex-row ">
       <div className="h-auto md:h-[400px] w-full md:w-1/2 md:pr-10 flex flex-col items-start justify-start md:justify-center gap-4 ">
         <h1 className="font-poppins font-bold text-[30px] md:text-[50px] leading-[2.3rem] md:leading-[55px] text-gray-800">Hi 👋, I’m José Daniel</h1>
-        <p className="font-poppins text-base font-normal text-slate-600">I am a <b>Front-end Developer</b> specialized in <b>React</b>, as well as in the technologies needed to create dynamic and highly interactive web applications.</p>
+        <p className="font-poppins text-base font-normal text-slate-600"><b>Front-end Developer</b> specialized in <b>React</b>, as well as in the technologies needed to create dynamic and highly interactive web applications.</p>
         <p className="hidden font-poppins text-base font-normal md:block text-slate-600">I consider myself enthusiastic about learning new technologies, finding solutions to work challenges and being part of a collaborative environment.</p>
       </div>
       <div className="h-[400px] w-full md:w-1/2 flex items-center justify-center ">
