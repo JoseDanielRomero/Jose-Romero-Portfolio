@@ -64,9 +64,9 @@ function ProyectsSection() {
   ]
 
   return (
-    <article className="h-auto w-full flex flex-col items-start justify-start gap-2">
-      <h3 className="font-poppins font-bold text-[25px] md:text-[35px] leading-[2.3rem] md:leading-[55px] mt-10 md:mt-14 text-gray-800">Portfolio</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full mb-5">
+    <article className="h-auto w-full flex flex-col items-start justify-start gap-2 md:gap-0">
+      <h3 className="font-poppins font-bold text-[25px] md:text-[35px] leading-[2.3rem] md:leading-[55px] mt-5 md:mt-14 text-gray-800">Portfolio</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full mt-0 mb-5 md:my-5">
         {proyects.map(proyect => {
           return (
             <section key={proyect.id} className="h-auto w-full rounded-xl flex flex-col items-center justify-between bg-white shadow-lg pb-6" >
