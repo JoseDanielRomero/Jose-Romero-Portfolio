@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Jose-Romero-Portfolio/static/css/main.61770c40.css",
-    "main.js": "/Jose-Romero-Portfolio/static/js/main.fcedfeb9.js",
+    "main.js": "/Jose-Romero-Portfolio/static/js/main.6644863b.js",
     "static/media/about-photo-jr.png": "/Jose-Romero-Portfolio/static/media/about-photo-jr.b60ff7b385f8681902c8.png",
     "static/media/profile-photo-jr.jpg": "/Jose-Romero-Portfolio/static/media/profile-photo-jr.222dc2f709226be23b4f.jpg",
     "static/media/sportify-mockup.png": "/Jose-Romero-Portfolio/static/media/sportify-mockup.0ca335ff2d1810d15d9a.png",
@@ -14,10 +14,10 @@
     "static/media/jquery-logo.png": "/Jose-Romero-Portfolio/static/media/jquery-logo.ffe114b5cf67abb10bd3.png",
     "index.html": "/Jose-Romero-Portfolio/index.html",
     "main.61770c40.css.map": "/Jose-Romero-Portfolio/static/css/main.61770c40.css.map",
-    "main.fcedfeb9.js.map": "/Jose-Romero-Portfolio/static/js/main.fcedfeb9.js.map"
+    "main.6644863b.js.map": "/Jose-Romero-Portfolio/static/js/main.6644863b.js.map"
   },
   "entrypoints": [
     "static/css/main.61770c40.css",
-    "static/js/main.fcedfeb9.js"
+    "static/js/main.6644863b.js"
   ]
 }
