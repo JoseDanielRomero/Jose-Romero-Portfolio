@@ -4,7 +4,7 @@ function ProyectsSection() {
     {
       "id": "1",
       "name": "Sportify app",
-      "description": "Website that compiles and displays the latest soccer results, statistics and data.",
+      "description": "Web App that compiles and displays the latest soccer results, statistics and data.",
       "image": "sportify-mockup",
       "demo": "https://josedanielromero.github.io/Sportify-app/",
       "repo": "https://github.com/JoseDanielRomero/Sportify-app",
@@ -87,10 +87,10 @@ function ProyectsSection() {
                 </div>
               </div>
               <div className="flex flex-row h-auto w-full gap-2 px-5">
-                <a href={proyect.demo} target="_blank" className="h-8 w-1/2 px-3 rounded-full bg-violet-500 hover:bg-violet-600 flex flex-col items-center justify-center cursor-pointer">
+                <a href={proyect.demo} target="_blank" className="h-8 w-1/2 px-3 rounded-full bg-violet-500 hover:bg-violet-600 flex flex-col items-center justify-center cursor-pointer transition ease-in-out">
                   <p className="font-semibold text-sm text-white">View Demo</p>
                 </a>
-                <a href={proyect.repo} target="_blank" className="h-8 w-1/2 px-3 rounded-full bg-violet-500 hover:bg-violet-600 flex flex-col items-center justify-center cursor-pointer">
+                <a href={proyect.repo} target="_blank" className="h-8 w-1/2 px-3 rounded-full bg-violet-500 hover:bg-violet-600 flex flex-col items-center justify-center cursor-pointer transition ease-in-out">
                   <p className="font-semibold text-sm text-white">View Repo</p>
                 </a>
               </div>

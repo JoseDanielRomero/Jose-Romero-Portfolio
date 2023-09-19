@@ -1,4 +1,5 @@
 import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import ProyectsSection from "./components/ProyectsSection";
@@ -13,6 +14,7 @@ function App() {
       <main className="h-auto px-8 md:px-16 lg:px-24">
         <AboutSection />
         <ProyectsSection />
+        <ContactSection />
       </main>
     </div>
   );
