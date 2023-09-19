@@ -12,8 +12,8 @@ function Navbar() {
         </div>
       </div>
       <div className="w-auto flex flex-row items-center justify-between gap-5 md:gap-10">
-        <a href="https://github.com/JoseDanielRomero" target="_blank"><img src={githubLogo} alt="Github page" className="h-6 md:h-7 hover:grayscale-[30%] hover:contrast-150 transition ease-in-out"/></a>
-        <a href="https://www.linkedin.com/in/jose-daniel-romero-t/" target="_blank"><img src={linkedinLogo} alt="Linkedin page" className="h-6 md:h-7 hover:grayscale-[30%] hover:contrast-150 transition ease-in-out"/></a>
+        <a href="https://github.com/JoseDanielRomero" target="_blank"><img src={githubLogo} alt="Github page" className="h-6 md:h-7 hover:grayscale-[30%] hover:contrast-150 cursor-pointer transition ease-in-out"/></a>
+        <a href="https://www.linkedin.com/in/jose-daniel-romero-t/" target="_blank"><img src={linkedinLogo} alt="Linkedin page" className="h-6 md:h-7 hover:grayscale-[30%] hover:contrast-150 cursor-pointer transition ease-in-out"/></a>
       </div>
     </nav>
   )
