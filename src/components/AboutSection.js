@@ -75,7 +75,7 @@ function AboutSection() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 w-full mt-0 mb-5 md:my-5">
           {techStack.map(tech => (
             <section key={tech.id} className="h-14 bg-violet-50 shadow-md rounded-2xl p-3 flex flex-row items-center justify-center gap-2">
-              <img src={require(`../images/${tech.image}.png`)} className="object-cover max-h-full max-w-full" alt={tech.name} />
+              <img src={require(`../images/${tech.image}.png`)} className="object-cover h-[32px] w-[32px]" alt={tech.name} />
               <p className="font-poppins text-sm font-medium text-gray-800">{tech.name}</p>
             </section>
           ))}
